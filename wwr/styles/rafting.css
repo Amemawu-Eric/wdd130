@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   color: var(--secondary-color);
 }
 
@@ -36,12 +36,12 @@ a {
     height: auto;
   }
   
-  .hero h1 {
+  hero h1 {
     position: absolute;
     /* Add top, right, bottom, left properties as needed */
   }
   
-  .hero article {
+  hero article {
     position: absolute;
     /* Add top, right, bottom, left properties as needed */
     background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
