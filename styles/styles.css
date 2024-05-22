@@ -16,7 +16,6 @@ nav {
     align-items: center;
 }
 nav a {
-    color: white;
     display: block;
     padding: 0.5rem;
     text-decoration: none;
@@ -26,7 +25,7 @@ nav a {
 }
 h1 {
     color: steelblue;
-    border-bottom: 2rem;
+    border-bottom: 4rem;
 }
 main img {
     width: 150px;
@@ -71,7 +70,16 @@ aside h2{
     top: 10px;
     left: 120px;
 }
-header,footer{
+header,footer,.grid {
     max-width: 840px;
     margin: 0 auto;
 }
+.grid{display: grid;
+align-items: center;
+}
+main{grid-column: 2/3;
+margin: 1rem;}
+aside{width: 20rem;
+position: relative;
+grid-column: 1/2;
+grid-row: 1/2;}
