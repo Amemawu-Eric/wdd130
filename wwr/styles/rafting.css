@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 :root {
-  --primary-color: #A23B15;
-  --secondary-color: #d5eb0e;
-  --tertiary-color: #86175c;
+  --primary-color: #cc1717;
+  --secondary-color: #b911a3;
+  --tertiary-color: #0f5186;
   /* Add more variables as needed */
 }
 
@@ -40,7 +40,7 @@ a {
   .hero h1 {
     position: absolute;
     top: 10px;
-    left: 500px;
+    left: 400px;
     font-size: 2em;
     margin: o.5em 0;
     /* Add top, right, bottom, left properties as needed */
@@ -49,8 +49,8 @@ a {
   .hero article {
     position: absolute;
     /* Add top, right, bottom, left properties as needed */
-    top: 30px;
-    left: 30px;
+    top: 60px;
+    left: 60px;
 
     background-color: rgba(255, 255, 255, 0.1); /* Adjust color and opacity as needed */
     padding: 20px;
@@ -61,15 +61,15 @@ a {
   .hero article img {
     float: right;
     margin-left: 1em;
-    width: 200px;
-    height:auto ;
+    width: 400px;
+    height:50% ;
 
   }
   .hero article p {
     color: var(--primary-color); /* Text color */
-    font-size: 2em; /* Text size */
-    line-height: 1.0; /* Space between lines of text */
+    font-size: 1.5em; /* Text size */
+    line-height: 0.9; /* Space between lines of text */
     text-align: left; /* Text alignment */
-    padding: 10px; /* Space around the text */
-    margin: 0; /* Space outside the text */
+    padding: 5px; /* Space around the text */
+    margin: 0.5em; /* Space outside the text */
   }
