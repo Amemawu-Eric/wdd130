@@ -70,6 +70,6 @@ a {
     font-size: 1.5em; /* Text size */
     line-height: 0.9; /* Space between lines of text */
     text-align: left; /* Text alignment */
-    padding: 5px; /* Space around the text */
-    margin: 0.5em; /* Space outside the text */
+    padding: 5px; 
+    margin: 0.5em; 
   }
