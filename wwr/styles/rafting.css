@@ -89,8 +89,84 @@ align-items: center;}
   margin: 1rem auto;
 }
 
-.nav{
+nav{
   grid-column: 2;
 display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+align-items: center;
+width: 100%;
+justify-content: center;}
 
+nav a{
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  transition: background-color 0.3s;
+flex-grow: 1;
+text-align: center;
+}
+@media(max-width: 600px){
+  nav{flex-direction: column;}
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0073e6;
+  color: rgb(113, 221, 13);
+  padding: 10px 20px;
+}
+
+header img {
+  height: 50px;
+}
+
+.history-section{
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  gap: 10px;
+  padding: 10px;
+
+}
+.history-item{
+  background-color: rgb(193, 231, 183);
+  border: 1px solid#441818;
+  padding: 15px;
+  border-radius: 5px;
+  
+}
+.adventure{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+.adventure figure{
+  flex-basis: calc(20%-20px);
+  margin: 0 10px;
+  text-align: center;
+}
+.adventure img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px;
+  background-color: #994747;
+  color: #978e8e;
+
+}
+.sociallinks{
+  display: flex;
+  gap:10px ;
+}
+.sociallinks img {
+  width: 24px;
+  height: auto;
+}
