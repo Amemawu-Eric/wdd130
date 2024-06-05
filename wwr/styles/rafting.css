@@ -4,7 +4,7 @@
   --primary-color: #cc1717;
   --secondary-color: #b911a3;
   --tertiary-color: #0f5186;
-  /* Add more variables as needed */
+ 
 }
 
 body {
@@ -43,16 +43,16 @@ a {
     left: 400px;
     font-size: 2em;
     margin: 0.5em 0;
-    /* Add top, right, bottom, left properties as needed */
+    
   }
   
   .hero article {
     position: absolute;
-    /* Add top, right, bottom, left properties as needed */
+    
     top: 60px;
     left: 60px;
 
-    background-color: rgba(255, 255, 255, 0.1); /* Adjust color and opacity as needed */
+    background-color: rgba(255, 255, 255, 0.1); 
     padding: 20px;
     border-radius: 10px;
     box-shadow:0 0 10px rgba( 0,0,0,0.2);
@@ -68,10 +68,10 @@ a {
   }
 
   .hero article p {
-    color: var(--primary-color); /* Text color */
-    font-size: 1.5em; /* Text size */
-    line-height: 0.9; /* Space between lines of text */
-    text-align: left; /* Text alignment */
+    color: var(--primary-color); 
+    font-size: 1.5em;
+    line-height: 0.9; 
+    text-align: left; 
     padding: 5px; 
     margin: 0.5em; 
   }
@@ -216,4 +216,65 @@ button.submit-button {
 
 button.submit-button:hover {
   background-color: #0056b3;
+}
+
+.cta {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Trip description styles */
+.trip {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.trip h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.trip img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.trip p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Trips table styles */
+.trips-table {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
 }
